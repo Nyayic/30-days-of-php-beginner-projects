@@ -3,3 +3,5 @@ clean
 declutter
 read
 walk the dog
+help
+code<br/>shoppraycook\nthr\r\n

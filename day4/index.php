@@ -3,7 +3,6 @@
 function displayTasks() {
   // Open the tasks.txt file and read the contents into an array
   $tasks = file('tasks.txt', FILE_IGNORE_NEW_LINES);
-
   // If there are tasks in the file, display them in an unordered list
   if (!empty($tasks)) {
     echo '<ul>';
@@ -29,10 +28,9 @@ function displayTasks() {
   // If the form has been submitted, add the new task to the file
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $newTask = $_POST['task'];
-
     if (!empty($newTask)) {
       $fh = fopen('tasks.txt', 'a');
-      fwrite($fh, $newTask . PHP_EOL);
+      fwrite($fh, $newTask . 'PHP_EOL');
       fclose($fh);
     }
     // Redirect back to the same page to prevent form resubmission
@@ -40,7 +38,6 @@ function displayTasks() {
     exit;
   }
   ?>
-
   <h2>Add a Task</h2>
   <form method="post">
     <label for="task">Task:</label>

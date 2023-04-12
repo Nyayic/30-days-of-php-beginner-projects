@@ -25,7 +25,6 @@ function displayTasks() {
 </head>
 <body>
   <h1>To-Do List</h1>
-
   <?php
   // If the form has been submitted, add the new task to the file
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -36,7 +35,6 @@ function displayTasks() {
       fwrite($fh, $newTask . PHP_EOL);
       fclose($fh);
     }
-
     // Redirect back to the same page to prevent form resubmission
     header('Location: ' . $_SERVER['PHP_SELF']);
     exit;

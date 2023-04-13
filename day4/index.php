@@ -30,7 +30,7 @@ function displayTasks() {
     $newTask = $_POST['task'];
     if (!empty($newTask)) {
       $fh = fopen('tasks.txt', 'a');
-      fwrite($fh, $newTask . 'PHP_EOL');
+      fwrite($fh, $newTask . PHP_EOL);
       fclose($fh);
     }
     // Redirect back to the same page to prevent form resubmission

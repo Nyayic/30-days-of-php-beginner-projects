@@ -12,7 +12,7 @@
 		<input type="number" name="width" id="width"><br><br>
 		<input type="submit" name="submit" value="Calculate">
 	</form>
-
+	
 	<?php 
 	if(isset($_POST['submit'])) {
 		// Retrieve user input

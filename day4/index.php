@@ -44,7 +44,6 @@ function displayTasks() {
     <input type="text" id="task" name="task">
     <button type="submit">Add Task</button>
   </form>
-
   <h2>Tasks</h2>
   <?php
   // Display the current list of tasks

@@ -5,3 +5,4 @@
 3. Day 3: Rectangle Area and Perimeter Calculator
 4. Day 4: A simple To-Do List App
 5. Day 5: Convert Fahrenheight to Celcius
+6. Day 6: a program that generates random quotes and displays on the screen

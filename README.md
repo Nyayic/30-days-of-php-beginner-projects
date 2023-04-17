@@ -7,3 +7,7 @@
 5. Day 5: Convert Fahrenheight to Celcius
 6. Day 6: a program that generates random quotes and displays on the screen
 7. Day 7: a simple program that generates random numbers between 1 to 200
+8. Day 8: a simple blog website in php
+- planning, determining data the blog shall store i.e posts, comments, users
+- creating a database schema
+- getting all the environment ready

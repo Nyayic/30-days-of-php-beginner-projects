@@ -15,3 +15,7 @@
     - create a MySQL database, blog, and create table posts
     - let's give our blog a name (foodies - a food blog)
     - connect to the database
+10. Day 10 : a simple blog in php (part 3)
+    - did a consultation with mentor
+    - need to to intensive planning on what tech stack to use, architecture, layout etc
+    - structure attached

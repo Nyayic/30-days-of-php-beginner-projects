@@ -19,3 +19,7 @@
     - did a consultation with mentor
     - need to to intensive planning on what tech stack to use, architecture, layout etc
     - structure attached
+11. Day 11: a simple blog in php (part 4)
+    - further requirement gathering
+    - consultation from coach
+    - drawing the layout /sketch on paper

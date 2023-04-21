@@ -23,3 +23,8 @@
     - further requirement gathering
     - consultation from coach
     - drawing the layout /sketch on paper
+12. Day 12: a simple blog in php (part 5)
+    - Got design and color inspirations
+    - got content ready
+    - did further research
+    - drew a simple flow chart

@@ -16,7 +16,7 @@ $result = mysqli_query($connect, $sql);
             <?php while ($row = mysqli_fetch_assoc($result)) : ?>
                 <div class="bg-white rounded-lg shadow p-6 mb-8">
                     <h2 class="text-2xl font-bold mb-4"><?= $row['title'] ?></h2>
-                    <p class="text-gray-700"></p><?= $row['content'] ?></p>
+                    <p class="text-gray-700"><?= $row['content'] ?></p>
                 </div>
             <?php endwhile; ?>
         </div>

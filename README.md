@@ -28,3 +28,5 @@
     - got content ready
     - did further research
     - drew a simple flow chart
+13. Day 13: a simple blog in php (part 6)
+    - user journey and story mapping

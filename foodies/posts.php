@@ -7,7 +7,6 @@ $result = mysqli_query($connect, $sql);
 $row = mysqli_fetch_assoc($result);
 
 ?>
-
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

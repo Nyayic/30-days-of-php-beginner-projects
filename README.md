@@ -33,3 +33,7 @@
 14. Day 14: a simple blog in php (part 7)
     - created a post form
 15. Day 15: a simple blog in php (part 8)
+16. Day 16: a simple blog in php (part 9)
+    - fixing msql errors
+    - creating a users database
+    - login and registration for users

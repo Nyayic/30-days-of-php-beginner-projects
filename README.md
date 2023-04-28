@@ -37,3 +37,7 @@
     - fixing msql errors
     - creating a users database
     - login and registration for users
+17. Day 17
+    - fixing mysql errors
+18. Day 18
+    - styling with tailwind css

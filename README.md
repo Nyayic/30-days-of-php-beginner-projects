@@ -41,3 +41,4 @@
     - fixing mysql errors
 18. Day 18
     - styling with tailwind css
+19. Day 19 - getting styles together

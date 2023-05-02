@@ -15,7 +15,6 @@ if (empty($username) || empty($email) || empty($password) || empty($confirm_pass
 } else {
     // Hash the password using bcrypt
     $hashed_password = password_hash($password, PASSWORD_BCRYPT);
-
     // Insert the user data into the users table in the MySQL database
     $query = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$hashed_password')";
     $result = mysqli_query($connect, $query);
@@ -35,7 +34,6 @@ if (empty($username) || empty($email) || empty($password) || empty($confirm_pass
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <title>Register</title>
-
 </head>
 <body>
 <form action="register.php" method="POST">
@@ -45,6 +43,5 @@ if (empty($username) || empty($email) || empty($password) || empty($confirm_pass
     <input type="password" name="confirm_password" placeholder="Confirm Password">
     <button type="submit">Register</button>
 </form>
-
 </body>
 </html>

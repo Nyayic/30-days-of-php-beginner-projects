@@ -42,3 +42,6 @@
 18. Day 18
     - styling with tailwind css
 19. Day 19 - getting styles together
+20. Day 20: 
+21. Day 21:
+22. Day 22:
